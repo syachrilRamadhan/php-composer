@@ -1,0 +1,18 @@
+{
+    "name": "syachrilramadhan/php-composer-hello",
+    "description": "PHP Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SyachrilRamadhan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syachril Ramadhan"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
